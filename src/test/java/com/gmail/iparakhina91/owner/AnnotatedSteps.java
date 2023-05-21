@@ -4,6 +4,7 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.*;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class AnnotatedSteps {
@@ -11,6 +12,7 @@ public class AnnotatedSteps {
     private static final int ISSUE = 80;
 
     @Test
+    @Tag("issue")
     @Feature("Issue в репозитории")
     @Story("Поиск Issue в репозитории")
     @Owner("korovinaiyu")
