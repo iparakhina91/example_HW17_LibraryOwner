@@ -1,8 +1,10 @@
 package com.gmail.iparakhina91.owner;
 
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.*;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -30,4 +32,11 @@ public class AnnotatedSteps {
         steps.openIssuesTab();
         steps.shouldSeeIssueWithNumber(ISSUE);
     }
+
+    @BeforeAll
+    static void setUp() {
+        Configuration.baseUrl = "https://allure.autotests.cloud";
+        Configuration.holdBrowserOpen = true;
+    }
+
 }

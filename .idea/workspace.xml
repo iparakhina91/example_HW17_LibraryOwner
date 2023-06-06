@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6f06783-dda6-4012-8ae7-dfa09ff3b265" name="Changes" comment="deleted some unuseful imports">
-      <change afterPath="$PROJECT_DIR$/.idea/AllurePlugin.xml" afterDir="false" />
+    <list default="true" id="b6f06783-dda6-4012-8ae7-dfa09ff3b265" name="Changes" comment="added tag">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/owner/AnnotatedSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/owner/AnnotatedSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +17,42 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="example_HW17_LibraryOwner" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="example_HW17_LibraryOwner" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="example_HW17_LibraryOwner" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="example_HW17_LibraryOwner" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,11 +78,12 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Irina/IdeaProjects/diploma_ui_litres&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;io.qameta.allure.idea.settings.ProjectSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.AnnotatedSteps">
+  <component name="RunManager" selected="Gradle.example_HW17_LibraryOwner [allureServe]">
     <configuration name="AnnotatedSteps" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -86,29 +121,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.gmail.iparakhina91.owner.AnnotatedStepsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AnnotatedStepsTest.testAnnotatedStep" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.gmail.iparakhina91.owner.AnnotatedStepsTest.testAnnotatedStep&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -164,13 +176,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="example_HW17_LibraryOwner [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.example_HW17_LibraryOwner [allureServe]" />
         <item itemvalue="Gradle.AnnotatedSteps" />
         <item itemvalue="Gradle.NewTest" />
         <item itemvalue="Gradle.WebDriverTest" />
         <item itemvalue="Gradle.AnnotatedStepsTest" />
-        <item itemvalue="Gradle.AnnotatedStepsTest.testAnnotatedStep" />
       </list>
     </recent_temporary>
   </component>
@@ -190,12 +223,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684441548322</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added tag">
+      <created>1684663368745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684663368745</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deleted some unuseful imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted some unuseful imports" />
+    <MESSAGE value="added tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tag" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
